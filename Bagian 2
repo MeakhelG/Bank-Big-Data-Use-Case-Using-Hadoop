@@ -1,11 +1,5 @@
-/* Membuat user baru pada MySQL */
-
-CREATE USER 'admin'@'localhost' IDENTIFIED BY 'admin';
-GRANT ALL ON *.* TO 'admin'@'localhost' WITH GRANT OPTION;
-FLUSH PRIVILEGES;
-COMMIT;
-
 /* Melakukan Sqoop Job pada tiga tabel yang telah kita buat sebelumnya ke Apache Hadoop HDFS */
+
 /* 1a. Sqoop Job pada Tabel 'loan_info' */
 sqoop job --create sqoop_loan_info -- import --connect jdbc:mysql://localhost/bank --username admin --password admin --table loan_info --target-dir /bank/loan_info_stg -m 1
 /* 1b. Mengeksekusi Sqoop Job Tabel 'loan_info' */
