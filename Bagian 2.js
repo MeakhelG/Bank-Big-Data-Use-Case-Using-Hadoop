@@ -20,6 +20,6 @@ sqoop job --create sqoop_shares_info -- import --connect jdbc:mysql://localhost/
 sqoop job --exec sqoop_shares_info
 /* 3c. Mengecek Tabel 'shares_info' pada Hadoop*/
 hadoop fs -cat hdfs://localhost:9000/bank/shares_info_stg/*
-___________________________________________________________
+
 /* Melihat Sqoop Jobs */
 sqoop job --list
