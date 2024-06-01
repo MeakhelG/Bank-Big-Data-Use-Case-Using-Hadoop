@@ -58,3 +58,9 @@ COMMIT;
 SELECT * FROM loan_info;
 SELECT * FROM credit_card_info;
 SELECT * FROM shares_info;
+
+/* Membuat user baru pada MySQL */
+CREATE USER 'admin'@'localhost' IDENTIFIED BY 'admin';
+GRANT ALL ON *.* TO 'admin'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+COMMIT;
