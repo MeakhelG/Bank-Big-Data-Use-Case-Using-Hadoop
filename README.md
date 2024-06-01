@@ -8,4 +8,5 @@ Pada saat ini, kita akan belajar mengenai studi kasus big data dalam kehidupan s
 Pada bagian ini akan dijelaskan pada ```Bagian 1```
 ## Bagian 2: Mengekspor data-data sebelumnya dari MySQL ke Apache Hadoop HDFS dengan Apache Sqoop
 Pada bagian ini akan dijelaskan pada ```Bagian 2```
-
+## Bagian 3: Membuat tabel eksternal pada Apache Hive
+Pada bagian ini akan dijelaskan pada ```Bagian 3```
