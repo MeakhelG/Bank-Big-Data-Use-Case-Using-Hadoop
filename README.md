@@ -14,3 +14,5 @@ Pada bagian ini akan dijelaskan pada ```Bagian 3```
 Pada bagian ini akan dijelaskan pada ```Bagian 4```
 ## Bagian 5: Melakukan analisis proses enkripsi dan dekripsi data pada Apache Hive 
 Pada bagian ini akan dijelaskan pada ```Bagian 5```
+### Ucapan Terima Kasih 
+Studi Kasus ini mengikuti panduan dari Acadgild.
