@@ -29,4 +29,4 @@ SELECT
     decrypt(company_name),
     decrypt(`timestamp`),
     decrypt(share_price)
-FROM shares_info_stg; 
+FROM shares_info; 
