@@ -22,3 +22,11 @@ SELECT
     decrypt(outstanding_balance),
     decrypt(due_date)
 FROM credit_card_info;
+
+/* Melihat isi dari shares_info dengan fungsi decrypt */
+SELECT
+    decrypt(share_id),
+    decrypt(company_name),
+    decrypt(`timestamp`),
+    decrypt(share_price)
+FROM shares_info_stg; 
