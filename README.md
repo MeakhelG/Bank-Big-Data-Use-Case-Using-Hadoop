@@ -16,6 +16,6 @@ Pada bagian ini akan dijelaskan pada ```Bagian 4```
 Pada bagian ini akan dijelaskan pada ```Bagian 5```
 ### Ucapan Terima Kasih 
 Terima kasih kepada Acadgild pada Playlist Video YouTube mengenai 'Big Data Use Cases - Bank Data Analysis Using Hadoop'.
-Tautan: https://www.youtube.com/playlist?list=PLlz0muypSBNbWtzYeFgR4eexFBnmWDHuo
+Tautan: https://www.youtube.com/playlist?list=PLlz0muypSBNbWtzYeFgR4eexFBnmWDHuo.
 Studi Kasus ini mengikuti panduan dari Acadgild.
 
