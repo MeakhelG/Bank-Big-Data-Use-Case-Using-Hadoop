@@ -1,4 +1,4 @@
-/* Membuat Database Bank dan Mengisi data pada MySQL*/
+/* Membuat Database Bank dan Mengisi data pada MySQL */
 
 CREATE DATABASE BANK;
 USE BANK;
@@ -54,7 +54,7 @@ INSERT INTO `shares_info` (`share_id`, `company_name`, `timestamp`, `share_price
 
 COMMIT;
 
-/* Mengecek data pada database bank di MySQL*/
+/* Mengecek data pada database bank di MySQL */
 SELECT * FROM loan_info;
 SELECT * FROM credit_card_info;
 SELECT * FROM shares_info;
