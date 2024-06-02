@@ -10,3 +10,5 @@ Pada bagian ini akan dijelaskan pada ```Bagian 1```
 Pada bagian ini akan dijelaskan pada ```Bagian 2```
 ## Bagian 3: Membuat tabel eksternal pada Apache Hive
 Pada bagian ini akan dijelaskan pada ```Bagian 3```
+## Bagian 4: Melaksanakan proses enkripsi dan dekripsi data pada Apache Hive menggunakan User Defined Function (UDF) 
+Pada bagian ini akan dijelaskan pada ```Bagian 4```
