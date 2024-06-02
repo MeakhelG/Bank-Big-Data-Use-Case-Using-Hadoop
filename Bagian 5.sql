@@ -30,3 +30,6 @@ SELECT
     decrypt(`timestamp`),
     decrypt(share_price)
 FROM shares_info; 
+
+/* Tambahan */
+SELECT decrypt(share_id), decrypt(company_name), decrypt(`timestamp`), decrypt(share_price) FROM shares_info WHERE decrypt(share_id) = 300;
