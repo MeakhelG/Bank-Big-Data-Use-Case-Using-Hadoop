@@ -1,4 +1,4 @@
-/* Membuat Database Bank dan Mengisi data pada MySQL */
+/* Mengenkripsi data pada Apache Hive */
 
 ADD jar /home/meakhelg/encryption_hive.jar;
 
