@@ -1,6 +1,6 @@
 /* Membuat Database Bank dan Mengisi data pada MySQL */
 
-CREATE DATABASE BANK;
+CREATE DATABASE bank;
 USE BANK;
   
 CREATE TABLE `loan_info` (
