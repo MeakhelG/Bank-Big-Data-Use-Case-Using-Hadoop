@@ -14,5 +14,7 @@ ON decrypt(li.user_id) = decrypt(cci.user_id)
 WHERE CAST(decrypt(cci.outstanding_balance) AS double) = 35000.0
 AND datediff(from_unixtime(unix_timestamp(), 'yyyy-MM-dd'), decrypt(li.last_payment_date))>=30;
 
-/* Tambahan */
-SELECT decrypt(share_id), decrypt(company_name), decrypt(`timestamp`), decrypt(share_price) FROM shares_info WHERE decrypt(share_id) = 300;
+/* Perintah ini mengambil data dari tabel shares_info setelah mendekripsi kolom-kolom tertentu dan
+hanya memilih baris dimana share_id bernilai 300. */
+SELECT decrypt(share_id), decrypt(company_name), decrypt(`timestamp`), decrypt(share_price) 
+FROM shares_info WHERE decrypt(share_id) = 300;
