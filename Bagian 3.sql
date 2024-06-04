@@ -1,6 +1,6 @@
 /* Membuat Database Bank dan tabel eksternal pada Apache Hive */
-CREATE DATABASE BANK;
-USE BANK;
+CREATE DATABASE bank;
+USE bank;
 
 CREATE EXTERNAL TABLE loan_info_stg (
     loan_id int,
