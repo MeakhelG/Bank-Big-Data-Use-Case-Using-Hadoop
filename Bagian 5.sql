@@ -17,4 +17,4 @@ AND datediff(from_unixtime(unix_timestamp(), 'yyyy-MM-dd'), decrypt(li.last_paym
 /* Perintah ini mengambil data dari tabel shares_info setelah mendekripsi kolom-kolom tertentu dan
 hanya memilih baris dimana share_id bernilai 400 atau lebih. */
 SELECT decrypt(share_id), decrypt(company_name), decrypt(`timestamp`), decrypt(share_price) 
-FROM shares_info WHERE decrypt(share_id) = 400;
+FROM shares_info WHERE decrypt(share_id) >= 400;
