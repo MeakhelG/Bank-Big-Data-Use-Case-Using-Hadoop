@@ -196,3 +196,6 @@ CREATE USER 'admin'@'localhost' IDENTIFIED BY 'admin';
 GRANT ALL ON *.* TO 'admin'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 COMMIT;
+
+/* Mengecek user pada MySQL */
+SELECT user FROM mysql. user;
