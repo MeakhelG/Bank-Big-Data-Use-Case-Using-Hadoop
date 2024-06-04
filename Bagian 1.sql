@@ -182,7 +182,7 @@ INSERT INTO `shares_info` (`share_id`, `company_name`, `timestamp`, `share_price
 (405, 'EpicCorp', '2024-07-18 11:00:00', 495),
 (410, 'ChampionCorp', '2024-07-20 12:00:00', 505),
 (415, 'VictoryCorp', '2024-07-22 13:00:00', 515),
-(417, 'PseudoCorp', '2024-07-24 15:00:00', 517);;
+(417, 'PseudoCorp', '2024-07-24 15:00:00', 517);
 
 COMMIT;
 
