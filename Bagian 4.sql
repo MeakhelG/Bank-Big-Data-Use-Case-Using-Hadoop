@@ -1,7 +1,6 @@
 /* Mengenkripsi data pada Apache Hive */
 
 ADD jar /home/meakhelg/encryption_hive.jar;
-
 CREATE TEMPORARY FUNCTION encrypt AS 'AESencrypt';
 CREATE TEMPORARY FUNCTION decrypt AS 'AESdecrypt';
 
@@ -55,3 +54,29 @@ FROM shares_info_stg;
 SELECT * FROM loan_info;
 SELECT * FROM credit_card_info;
 SELECT * FROM shares_info;
+
+/* Melihat isi dari loan_info dengan fungsi decrypt */
+SELECT 
+    decrypt(loan_id),
+    decrypt(user_id),
+    decrypt(last_payment_date),
+    decrypt(payment_instalation),
+    decrypt(date_payable)
+FROM loan_info;
+
+/* Melihat isi dari credit_card_info dengan fungsi decrypt */
+SELECT
+    decrypt(user_id),
+    decrypt(cc_number),
+    decrypt(max_credit),
+    decrypt(outstanding_balance),
+    decrypt(due_date)
+FROM credit_card_info;
+
+/* Melihat isi dari shares_info dengan fungsi decrypt */
+SELECT
+    decrypt(share_id),
+    decrypt(company_name),
+    decrypt(`timestamp`),
+    decrypt(share_price)
+FROM shares_info; 
